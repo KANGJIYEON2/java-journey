@@ -34,5 +34,14 @@ public class PrimitiveTypeTableSimple {
     }
 }
 
+/*
+===== 자바 기본 타입 정보 =====
+byte   : size = 1 bytes (8 bits), min = -128, max = 127
+short  : size = 2 bytes (16 bits), min = -32768, max = 32767
+int    : size = 4 bytes (32 bits), min = -2147483648, max = 2147483647
+long   : size = 8 bytes (64 bits), min = -9223372036854775808, max = 9223372036854775807
+float  : size = 4 bytes (32 bits), min = 1.4E-45, max = 3.4028235E38
+double : size = 8 bytes (64 bits), min = 4.9E-324, max = 1.7976931348623157E308
+char   : size = 2 bytes (16 bits), min = 0, max = 65535*/
 
 // 비트 -> 데이터 저장에 필요한 '물리적 크기' -> 0, 1로 구성, 메모리(bytes) 저장단위 -> 0,1을 저장 할 수 있는 공간
