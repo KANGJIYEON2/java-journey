@@ -29,8 +29,8 @@ public class PrimitiveTypeTableSimple {
                 + ", max = " + Double.MAX_VALUE);
 
         System.out.println("char   : size = " + Character.BYTES + " bytes (" + (Character.BYTES * 8) + " bits)"
-                + ", min = " + (int)Character.MIN_VALUE
-                + ", max = " + (int)Character.MAX_VALUE);
+                + ", min = " + (int) Character.MIN_VALUE
+                + ", max = " + (int) Character.MAX_VALUE);
     }
 }
 

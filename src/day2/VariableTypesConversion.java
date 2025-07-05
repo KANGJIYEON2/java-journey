@@ -1,4 +1,5 @@
 package day2;
+
 //byte < short < int < long < float < double
 public class VariableTypesConversion {
     public static void main(String[] args) {
@@ -10,9 +11,9 @@ public class VariableTypesConversion {
         System.out.println("d = " + d);
         System.out.println("i = " + i);
         System.out.println("c = " + c); //유니코드 코드 포인트(출력되는 문자 없음) ->  제어문자(tab)이 출력
-        System.out.println((int)c); //실제 숫자 출력
+        System.out.println((int) c); //실제 숫자 출력
         System.out.println("d2 = " + d2);
-        int tricky = (int) ((char)(byte) 130);
+        int tricky = (int) ((char) (byte) 130);
         System.out.println("tricky = " + tricky);
 
         /*
