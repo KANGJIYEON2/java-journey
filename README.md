@@ -15,4 +15,4 @@
 | 🐣 **D+3** | 연산                    | - |
 | 🐣 **D+4** | 실행 흐름 제어 (조건과 반복의 기술) | - |
 | 🐣 **D+5** | 스코프                   | https://hihello516.tistory.com/2 |
-| 🐣 **D+6** | 클래스와 생성자              | https://hihello516.tistory.com/5|
+| 🐣 **D+6** | 클래스와 인스턴스             | https://hihello516.tistory.com/5|
