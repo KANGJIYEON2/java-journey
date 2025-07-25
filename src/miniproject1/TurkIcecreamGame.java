@@ -30,8 +30,22 @@ package miniproject1;
  *
  */
 
+import java.util.Scanner;
+
 public class TurkIcecreamGame {
+
     public static void main(String[] args) {
-        System.out.println("맛있는 터키아이스크림 가게에 오신걸 환영합니다.😎");
+        System.out.println("===맛있는 터키아이스크림 가게에 오신걸 환영합니다.😎===");
+        System.out.println("아이스크림을 골라주세요(숫자로 입력)");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("1.초코아이스크림 2.바닐라아이스크림 3.딸기아이스크림");
+        String iceNum = sc.nextLine();
+        iceNum = switch (iceNum) {
+            case "1" -> "초코아이스크림";
+            case "2" -> "바닐라아이스크림";
+            case "3" -> "딸기아이스크림";
+            default -> "없습니다요 😭`";
+        };
+        System.out.println("당신이 고른 아이스크림은 " + iceNum);
     }
 }
